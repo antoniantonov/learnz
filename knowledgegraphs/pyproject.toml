@@ -1,0 +1,10 @@
+[project]
+name = "knowledgegraphs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.14",
+    "llama-index>=0.12.10",
+]
