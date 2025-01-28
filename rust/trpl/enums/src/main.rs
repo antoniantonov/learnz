@@ -74,8 +74,16 @@ fn main() {
         3 => add_fancy_hat(),
         7 => remove_fancy_hat(),
         other => move_player(other),
-        // _ => reroll(),
-        // _ => (),
+        // _ => reroll(),  // No binding to a variable - match all.
+        // _ => (),        // No binding to a variable - match all and do nothing by using empty tuple.
+    }
+
+    //let config_max: Option<i8> = None;
+    let config_max: Option<i8> = Some(8);
+    if let Some(max) = config_max {
+        println!("The maximum is configured to be {max}");
+    } else {
+        println!("No maximum configured");
     }
 
 }
