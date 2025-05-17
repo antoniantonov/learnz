@@ -5,3 +5,5 @@ rust/trpl/hello_cargo/target
 rust/trpl/hello_world/main
 rust/trpl/*/target
 .DS_Store
+rust/qrspoof/target
+rust/qrspoof/target/*
