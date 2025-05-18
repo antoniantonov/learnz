@@ -1,2 +1,2 @@
 # learnz
-All about learning gainz - learnz. 
+It's all about that learnz... 
